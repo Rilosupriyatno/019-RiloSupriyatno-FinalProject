@@ -2,13 +2,12 @@
   width: 40%;
   padding-bottom: 4rem;
 }
-.client_avatar {
+.avatar {
   width: 100%;
   aspect-ratio: 1/0;
   overflow: hidden;
   border-radius: 10%;
   margin: 0 auto 1rem;
-  border: 0.4rem solid var(--color-primary-variant);
 }
 .award {
   background: var(--color-bg-variant);
@@ -17,7 +16,7 @@
   border-radius: 2rem;
   user-select: none;
 }
-.client_review {
+.review {
   color: var(--color-light);
   font-weight: 300;
   display: block;
@@ -39,7 +38,7 @@
   .container.awards_container {
     width: var(--container-width-sm);
   }
-  .client_review {
+  .review {
     width: var(--container-width-sm);
   }
 }
