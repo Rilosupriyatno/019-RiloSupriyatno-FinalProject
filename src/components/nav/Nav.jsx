@@ -3,6 +3,7 @@ import "./nav.css";
 // import { AiOutlineHome } from "react-icons/ai";
 import { SiAboutdotme } from "react-icons/si";
 import { BsBook } from "react-icons/bs";
+import { MdWork } from "react-icons/md";
 import { RiServiceLine } from "react-icons/ri";
 import { BsFillAwardFill } from "react-icons/bs";
 import { FaGraduationCap } from "react-icons/fa";
@@ -41,11 +42,17 @@ const Nav = () => {
       >
         <FaGraduationCap />
       </a>
-
       <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
+      >
+        <MdWork />
+      </a>
+      <a
+        href="#portApp"
+        onClick={() => setActiveNav("#portApp")}
+        className={activeNav === "#portApp" ? "active" : ""}
       >
         <RiServiceLine />
       </a>

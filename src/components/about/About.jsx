@@ -14,7 +14,11 @@ const about = () => {
           </div>
         </div>
         <div className="about_content">
-          <p>Nama Saya Rilo Supriyatno, Saya berasal dari Cirebon</p>
+          <p>
+            Nama Saya Rilo Supriyatno, Saya lahir dan tinggal di Cirebon. SAya
+            merupakan dari salah satu universitas swasta di Yogyakarta yakni
+            Universitas Teknologi Yogyakarta.{" "}
+          </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>

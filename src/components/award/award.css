@@ -3,10 +3,10 @@
   padding-bottom: 4rem;
 }
 .client_avatar {
-  width: 4rem;
-  aspect-ratio: 1/1;
+  width: 100%;
+  aspect-ratio: 1/0;
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 10%;
   margin: 0 auto 1rem;
   border: 0.4rem solid var(--color-primary-variant);
 }

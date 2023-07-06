@@ -1,5 +1,7 @@
 import React from "react";
 import "./award.css";
+import MOS from "../../assets/MOS.jpg";
+import Data from "../../assets/Data.jpg";
 // import Swiper core and required modules
 import { Pagination } from "swiper";
 
@@ -10,12 +12,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const data = [
-  {
-    name: "Microsoft Office Specialist",
-  },
-  {
-    name: "Data Security",
-  },
+  { avatar: MOS, name: "Microsoft Office Specialist" },
+  { avatar: Data, name: "Data Engineering" },
 ];
 
 const Award = () => {
@@ -35,6 +33,9 @@ const Award = () => {
         {data.map(({ avatar, name, review }, index) => {
           return (
             <SwiperSlide key={index} className="award">
+              <div className="client_avatar">
+                <img src={avatar} alt="" />
+              </div>
               <div className="client_name">
                 <h5 className="client_name">{name}</h5>
               </div>
