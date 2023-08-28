@@ -73,13 +73,6 @@ const Skills = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-            <article className="skill_details">
-              <BsPatchCheckFill className="skills" />
-              <div>
-                <h4>Golang</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
           </div>
         </div>
       </div>
